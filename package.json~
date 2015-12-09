@@ -1,0 +1,11 @@
+{
+  "name": "objectclone",
+  "version": "1.0.0",
+  "description": "Adds a clone method to duplicate objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "747823",
+  "license": "ISC"
+}
