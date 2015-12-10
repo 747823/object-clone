@@ -25,3 +25,7 @@ test.y.z = 2;
 // Now test.y.z is 2, and x.y.z is still 0 because they're different objects
 ```
 
+
+###Notes
+Currently doesn't account for circular references and has undergone minimal testing. You probably shouldn't use this in a production site/app.
+
