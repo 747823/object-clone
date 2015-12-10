@@ -1,9 +1,4 @@
 
-/**
- * Clones an object as a completely separate instance
- * @param  {[type]} obj [description]
- * @return {[type]}     [description]
- */
 if ( !Object.clone ) {
   Object.defineProperty( Object, "clone", {
     enumerable: false,
@@ -16,7 +11,7 @@ if ( !Object.clone ) {
         return obj;
       }
 
-      var newObj = {};
+      var newObj = new obj.constructor();
       for ( key in obj ) {
         newObj[ key ] = Object.clone( obj[ key ] );
       }
