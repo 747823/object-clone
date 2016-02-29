@@ -1,6 +1,6 @@
 {
   "name": "object-clone",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Adds a clone method to duplicate objects",
   "main": "index.js",
   "scripts": {

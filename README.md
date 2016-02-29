@@ -20,7 +20,7 @@ Then you can use it like this:
 require('object-clone');
 
 var x = { y: { z: 0 } };
-var test = Object.clone( y );
+var test = Object.clone( x );
 test.y.z = 2;
 // Now test.y.z is 2, and x.y.z is still 0 because they're different objects
 ```
@@ -29,3 +29,8 @@ test.y.z = 2;
 ###Notes
 Currently doesn't account for circular references and has undergone minimal testing. You probably shouldn't use this in a production site/app.
 
+
+###Releases
+0.1.2: updated readme ;)
+0.1.1: enabled strict mode and fixed a bug where the key variable in the for..in loop was put in the global scope
+0.1.0: first release
