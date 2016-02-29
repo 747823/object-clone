@@ -30,7 +30,5 @@ test.y.z = 2;
 Currently doesn't account for circular references and has undergone minimal testing. You probably shouldn't use this in a production site/app.
 
 
-###Releases
-0.1.2: updated readme ;)
-0.1.1: enabled strict mode and fixed a bug where the key variable in the for..in loop was put in the global scope
-0.1.0: first release
+###Release Updates
+0.1.2: enabled strict mode and fixed a bug where the key variable in the for..in loop was put in the global scope
