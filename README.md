@@ -7,11 +7,10 @@ Normally when you assign an object to a new variable in Javascript, the original
 var x = { y: { z: 0 } };
 var test = x;
 test.y.z = 2;
-// Now x.y.z === 2 because they're both references to the same underlying object
-// But we don't always want that behavior!
+// x.y.z === 2
 ```
 
-This package adds an Object.clone method which returns a totally new object, not a reference to the original.
+We don't always want the above behavior, and sometimes it's very inconvenient. This package adds an Object.clone method which returns a totally new object, not a reference to the original.
 
 ###Usage
 ```
@@ -20,7 +19,8 @@ require('object-clone');
 var x = { y: { z: 0 } };
 var test = Object.clone( x );
 test.y.z = 2;
-// Now test.y.z is 2, and x.y.z is still 0 because they're different objects
+// test.y.z === 2
+// x.y.z === 0
 ```
 
 ###Notes
