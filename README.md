@@ -23,6 +23,10 @@ test.y.z = 2;
 // Now test.y.z is 2, and x.y.z is still 0 because they're different objects
 ```
 
+###Notes
+* Test cases have been added in version 1.0.0 so it should be relatively reliable now
+* Passing an object with circular references into Object.clone will now throw a TypeError instead of looping forever
+
 ###Version Updates
 * 1.0.0: 
 	* Added fixed and random tests
