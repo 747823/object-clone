@@ -1,5 +1,5 @@
 # object-clone
-object-clone is a npm package for cloning js objects
+object-clone is a small package for cloning js objects
 
 ### Introduction
 Normally when you assign an object to a new variable in Javascript, the original variable and the new variable will both point to the same object in memory. So for example:
