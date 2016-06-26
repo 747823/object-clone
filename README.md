@@ -28,4 +28,5 @@ test.y.z = 2;
 	* Added fixed and random tests
 	* Fixed a bug that would attempt to call a constructor for null values
 	* Added error handling for circular referenes
-* 0.1.2: enabled strict mode and fixed a bug where the key variable in the for..in loop was put in the global scope
+* 0.1.2: 
+	* Enabled strict mode and fixed a bug where the key variable in the for..in loop was put in the global scope
