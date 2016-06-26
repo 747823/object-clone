@@ -23,6 +23,9 @@ test.y.z = 2;
 // Now test.y.z is 2, and x.y.z is still 0 because they're different objects
 ```
 
-###Release Updates
-1.0.0: Added fixed and random tests, fixed a bug that would attempt to call a constructor for null values, and added error handling for circular referenes
-0.1.2: enabled strict mode and fixed a bug where the key variable in the for..in loop was put in the global scope
+###Version Updates
+* 1.0.0: 
+	* Added fixed and random tests
+	* Fixed a bug that would attempt to call a constructor for null values
+	* Added error handling for circular referenes
+* 0.1.2: enabled strict mode and fixed a bug where the key variable in the for..in loop was put in the global scope
